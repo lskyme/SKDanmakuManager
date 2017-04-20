@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		604E0DB71EA5B3F900DC19EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 604E0DB61EA5B3F900DC19EF /* main.m */; };
+		604E0DBA1EA5B3F900DC19EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 604E0DB91EA5B3F900DC19EF /* AppDelegate.m */; };
+		604E0DC01EA5B3F900DC19EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604E0DBE1EA5B3F900DC19EF /* Main.storyboard */; };
+		604E0DC21EA5B3F900DC19EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604E0DC11EA5B3F900DC19EF /* Assets.xcassets */; };
+		604E0DC51EA5B3F900DC19EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604E0DC31EA5B3F900DC19EF /* LaunchScreen.storyboard */; };
+		604E0DD01EA5B3F900DC19EF /* SKDanmakuManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 604E0DCF1EA5B3F900DC19EF /* SKDanmakuManagerDemoTests.m */; };
+		604E0DDB1EA5B3F900DC19EF /* SKDanmakuManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 604E0DDA1EA5B3F900DC19EF /* SKDanmakuManagerDemoUITests.m */; };
+		604E0DF81EA6024400DC19EF /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604E0DF71EA6024400DC19EF /* MainTableViewController.m */; };
+		604E0DFB1EA6030600DC19EF /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604E0DFA1EA6030600DC19EF /* VideoViewController.m */; };
+		604E0E031EA7673900DC19EF /* SKDanmaku.m in Sources */ = {isa = PBXBuildFile; fileRef = 604E0DFE1EA7673900DC19EF /* SKDanmaku.m */; };
+		604E0E041EA7673900DC19EF /* SKDanmakuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 604E0E001EA7673900DC19EF /* SKDanmakuManager.m */; };
+		604E0E051EA7673900DC19EF /* SKDanmakuTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 604E0E021EA7673900DC19EF /* SKDanmakuTrack.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		604E0DCC1EA5B3F900DC19EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 604E0DAA1EA5B3F900DC19EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 604E0DB11EA5B3F900DC19EF;
+			remoteInfo = SKDanmakuManagerDemo;
+		};
+		604E0DD71EA5B3F900DC19EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 604E0DAA1EA5B3F900DC19EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 604E0DB11EA5B3F900DC19EF;
+			remoteInfo = SKDanmakuManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		604E0DB21EA5B3F900DC19EF /* SKDanmakuManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKDanmakuManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		604E0DB61EA5B3F900DC19EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		604E0DB81EA5B3F900DC19EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		604E0DB91EA5B3F900DC19EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		604E0DBF1EA5B3F900DC19EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		604E0DC11EA5B3F900DC19EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		604E0DC41EA5B3F900DC19EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		604E0DC61EA5B3F900DC19EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604E0DCB1EA5B3F900DC19EF /* SKDanmakuManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKDanmakuManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		604E0DCF1EA5B3F900DC19EF /* SKDanmakuManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKDanmakuManagerDemoTests.m; sourceTree = "<group>"; };
+		604E0DD11EA5B3F900DC19EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604E0DD61EA5B3F900DC19EF /* SKDanmakuManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKDanmakuManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		604E0DDA1EA5B3F900DC19EF /* SKDanmakuManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKDanmakuManagerDemoUITests.m; sourceTree = "<group>"; };
+		604E0DDC1EA5B3F900DC19EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604E0DF61EA6024400DC19EF /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		604E0DF71EA6024400DC19EF /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		604E0DF91EA6030600DC19EF /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		604E0DFA1EA6030600DC19EF /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		604E0DFD1EA7673900DC19EF /* SKDanmaku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDanmaku.h; sourceTree = "<group>"; };
+		604E0DFE1EA7673900DC19EF /* SKDanmaku.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDanmaku.m; sourceTree = "<group>"; };
+		604E0DFF1EA7673900DC19EF /* SKDanmakuManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDanmakuManager.h; sourceTree = "<group>"; };
+		604E0E001EA7673900DC19EF /* SKDanmakuManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDanmakuManager.m; sourceTree = "<group>"; };
+		604E0E011EA7673900DC19EF /* SKDanmakuTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDanmakuTrack.h; sourceTree = "<group>"; };
+		604E0E021EA7673900DC19EF /* SKDanmakuTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDanmakuTrack.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		604E0DAF1EA5B3F900DC19EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604E0DC81EA5B3F900DC19EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604E0DD31EA5B3F900DC19EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		604E0DA91EA5B3F900DC19EF = {
+			isa = PBXGroup;
+			children = (
+				604E0DB41EA5B3F900DC19EF /* SKDanmakuManagerDemo */,
+				604E0DCE1EA5B3F900DC19EF /* SKDanmakuManagerDemoTests */,
+				604E0DD91EA5B3F900DC19EF /* SKDanmakuManagerDemoUITests */,
+				604E0DB31EA5B3F900DC19EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		604E0DB31EA5B3F900DC19EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				604E0DB21EA5B3F900DC19EF /* SKDanmakuManagerDemo.app */,
+				604E0DCB1EA5B3F900DC19EF /* SKDanmakuManagerDemoTests.xctest */,
+				604E0DD61EA5B3F900DC19EF /* SKDanmakuManagerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		604E0DB41EA5B3F900DC19EF /* SKDanmakuManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				604E0DFC1EA7673900DC19EF /* SKDanmakuManager */,
+				604E0DE91EA5B46700DC19EF /* Controllers */,
+				604E0DB51EA5B3F900DC19EF /* Supporting Files */,
+			);
+			path = SKDanmakuManagerDemo;
+			sourceTree = "<group>";
+		};
+		604E0DB51EA5B3F900DC19EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				604E0DB81EA5B3F900DC19EF /* AppDelegate.h */,
+				604E0DB91EA5B3F900DC19EF /* AppDelegate.m */,
+				604E0DBE1EA5B3F900DC19EF /* Main.storyboard */,
+				604E0DC11EA5B3F900DC19EF /* Assets.xcassets */,
+				604E0DC31EA5B3F900DC19EF /* LaunchScreen.storyboard */,
+				604E0DC61EA5B3F900DC19EF /* Info.plist */,
+				604E0DB61EA5B3F900DC19EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		604E0DCE1EA5B3F900DC19EF /* SKDanmakuManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				604E0DCF1EA5B3F900DC19EF /* SKDanmakuManagerDemoTests.m */,
+				604E0DD11EA5B3F900DC19EF /* Info.plist */,
+			);
+			path = SKDanmakuManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		604E0DD91EA5B3F900DC19EF /* SKDanmakuManagerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				604E0DDA1EA5B3F900DC19EF /* SKDanmakuManagerDemoUITests.m */,
+				604E0DDC1EA5B3F900DC19EF /* Info.plist */,
+			);
+			path = SKDanmakuManagerDemoUITests;
+			sourceTree = "<group>";
+		};
+		604E0DE91EA5B46700DC19EF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				604E0DF61EA6024400DC19EF /* MainTableViewController.h */,
+				604E0DF71EA6024400DC19EF /* MainTableViewController.m */,
+				604E0DF91EA6030600DC19EF /* VideoViewController.h */,
+				604E0DFA1EA6030600DC19EF /* VideoViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		604E0DFC1EA7673900DC19EF /* SKDanmakuManager */ = {
+			isa = PBXGroup;
+			children = (
+				604E0DFD1EA7673900DC19EF /* SKDanmaku.h */,
+				604E0DFE1EA7673900DC19EF /* SKDanmaku.m */,
+				604E0DFF1EA7673900DC19EF /* SKDanmakuManager.h */,
+				604E0E001EA7673900DC19EF /* SKDanmakuManager.m */,
+				604E0E011EA7673900DC19EF /* SKDanmakuTrack.h */,
+				604E0E021EA7673900DC19EF /* SKDanmakuTrack.m */,
+			);
+			path = SKDanmakuManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		604E0DB11EA5B3F900DC19EF /* SKDanmakuManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604E0DDF1EA5B3F900DC19EF /* Build configuration list for PBXNativeTarget "SKDanmakuManagerDemo" */;
+			buildPhases = (
+				604E0DAE1EA5B3F900DC19EF /* Sources */,
+				604E0DAF1EA5B3F900DC19EF /* Frameworks */,
+				604E0DB01EA5B3F900DC19EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKDanmakuManagerDemo;
+			productName = SKDanmakuManagerDemo;
+			productReference = 604E0DB21EA5B3F900DC19EF /* SKDanmakuManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		604E0DCA1EA5B3F900DC19EF /* SKDanmakuManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604E0DE21EA5B3F900DC19EF /* Build configuration list for PBXNativeTarget "SKDanmakuManagerDemoTests" */;
+			buildPhases = (
+				604E0DC71EA5B3F900DC19EF /* Sources */,
+				604E0DC81EA5B3F900DC19EF /* Frameworks */,
+				604E0DC91EA5B3F900DC19EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				604E0DCD1EA5B3F900DC19EF /* PBXTargetDependency */,
+			);
+			name = SKDanmakuManagerDemoTests;
+			productName = SKDanmakuManagerDemoTests;
+			productReference = 604E0DCB1EA5B3F900DC19EF /* SKDanmakuManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		604E0DD51EA5B3F900DC19EF /* SKDanmakuManagerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604E0DE51EA5B3F900DC19EF /* Build configuration list for PBXNativeTarget "SKDanmakuManagerDemoUITests" */;
+			buildPhases = (
+				604E0DD21EA5B3F900DC19EF /* Sources */,
+				604E0DD31EA5B3F900DC19EF /* Frameworks */,
+				604E0DD41EA5B3F900DC19EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				604E0DD81EA5B3F900DC19EF /* PBXTargetDependency */,
+			);
+			name = SKDanmakuManagerDemoUITests;
+			productName = SKDanmakuManagerDemoUITests;
+			productReference = 604E0DD61EA5B3F900DC19EF /* SKDanmakuManagerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		604E0DAA1EA5B3F900DC19EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Lskyme;
+				TargetAttributes = {
+					604E0DB11EA5B3F900DC19EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EFLGCRR3G6;
+						ProvisioningStyle = Automatic;
+					};
+					604E0DCA1EA5B3F900DC19EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EFLGCRR3G6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 604E0DB11EA5B3F900DC19EF;
+					};
+					604E0DD51EA5B3F900DC19EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EFLGCRR3G6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 604E0DB11EA5B3F900DC19EF;
+					};
+				};
+			};
+			buildConfigurationList = 604E0DAD1EA5B3F900DC19EF /* Build configuration list for PBXProject "SKDanmakuManagerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 604E0DA91EA5B3F900DC19EF;
+			productRefGroup = 604E0DB31EA5B3F900DC19EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				604E0DB11EA5B3F900DC19EF /* SKDanmakuManagerDemo */,
+				604E0DCA1EA5B3F900DC19EF /* SKDanmakuManagerDemoTests */,
+				604E0DD51EA5B3F900DC19EF /* SKDanmakuManagerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		604E0DB01EA5B3F900DC19EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604E0DC51EA5B3F900DC19EF /* LaunchScreen.storyboard in Resources */,
+				604E0DC21EA5B3F900DC19EF /* Assets.xcassets in Resources */,
+				604E0DC01EA5B3F900DC19EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604E0DC91EA5B3F900DC19EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604E0DD41EA5B3F900DC19EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		604E0DAE1EA5B3F900DC19EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604E0E031EA7673900DC19EF /* SKDanmaku.m in Sources */,
+				604E0DBA1EA5B3F900DC19EF /* AppDelegate.m in Sources */,
+				604E0DF81EA6024400DC19EF /* MainTableViewController.m in Sources */,
+				604E0DFB1EA6030600DC19EF /* VideoViewController.m in Sources */,
+				604E0DB71EA5B3F900DC19EF /* main.m in Sources */,
+				604E0E051EA7673900DC19EF /* SKDanmakuTrack.m in Sources */,
+				604E0E041EA7673900DC19EF /* SKDanmakuManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604E0DC71EA5B3F900DC19EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604E0DD01EA5B3F900DC19EF /* SKDanmakuManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604E0DD21EA5B3F900DC19EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604E0DDB1EA5B3F900DC19EF /* SKDanmakuManagerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		604E0DCD1EA5B3F900DC19EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 604E0DB11EA5B3F900DC19EF /* SKDanmakuManagerDemo */;
+			targetProxy = 604E0DCC1EA5B3F900DC19EF /* PBXContainerItemProxy */;
+		};
+		604E0DD81EA5B3F900DC19EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 604E0DB11EA5B3F900DC19EF /* SKDanmakuManagerDemo */;
+			targetProxy = 604E0DD71EA5B3F900DC19EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		604E0DBE1EA5B3F900DC19EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				604E0DBF1EA5B3F900DC19EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		604E0DC31EA5B3F900DC19EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				604E0DC41EA5B3F900DC19EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		604E0DDD1EA5B3F900DC19EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		604E0DDE1EA5B3F900DC19EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		604E0DE01EA5B3F900DC19EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EFLGCRR3G6;
+				INFOPLIST_FILE = SKDanmakuManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lskyme.SKDanmakuManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		604E0DE11EA5B3F900DC19EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EFLGCRR3G6;
+				INFOPLIST_FILE = SKDanmakuManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lskyme.SKDanmakuManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		604E0DE31EA5B3F900DC19EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EFLGCRR3G6;
+				INFOPLIST_FILE = SKDanmakuManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lskyme.SKDanmakuManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKDanmakuManagerDemo.app/SKDanmakuManagerDemo";
+			};
+			name = Debug;
+		};
+		604E0DE41EA5B3F900DC19EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EFLGCRR3G6;
+				INFOPLIST_FILE = SKDanmakuManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lskyme.SKDanmakuManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKDanmakuManagerDemo.app/SKDanmakuManagerDemo";
+			};
+			name = Release;
+		};
+		604E0DE61EA5B3F900DC19EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EFLGCRR3G6;
+				INFOPLIST_FILE = SKDanmakuManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lskyme.SKDanmakuManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKDanmakuManagerDemo;
+			};
+			name = Debug;
+		};
+		604E0DE71EA5B3F900DC19EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EFLGCRR3G6;
+				INFOPLIST_FILE = SKDanmakuManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lskyme.SKDanmakuManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKDanmakuManagerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		604E0DAD1EA5B3F900DC19EF /* Build configuration list for PBXProject "SKDanmakuManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604E0DDD1EA5B3F900DC19EF /* Debug */,
+				604E0DDE1EA5B3F900DC19EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		604E0DDF1EA5B3F900DC19EF /* Build configuration list for PBXNativeTarget "SKDanmakuManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604E0DE01EA5B3F900DC19EF /* Debug */,
+				604E0DE11EA5B3F900DC19EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		604E0DE21EA5B3F900DC19EF /* Build configuration list for PBXNativeTarget "SKDanmakuManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604E0DE31EA5B3F900DC19EF /* Debug */,
+				604E0DE41EA5B3F900DC19EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		604E0DE51EA5B3F900DC19EF /* Build configuration list for PBXNativeTarget "SKDanmakuManagerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604E0DE61EA5B3F900DC19EF /* Debug */,
+				604E0DE71EA5B3F900DC19EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 604E0DAA1EA5B3F900DC19EF /* Project object */;
+}
