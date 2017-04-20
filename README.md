@@ -1,9 +1,8 @@
 # SKDanmakuManager
----
+
 只需几句代码，就可以快速地创建一条条弹幕并显示在播放界面上。
 
 ## 功能特点
----
 - 弹幕基于CATextLayer，渲染更快性能消耗更少
 
 - 弹幕的播放、暂停、显示和隐藏
@@ -26,11 +25,9 @@
 - 其他还没想到~
 
 ## 系统要求
----
 	iOS 8.0+
 
 ## 效果图
----
 - 发送弹幕（关闭碰撞检测）
   
   ![Markdown](http://i4.buimg.com/591904/63f2640a61155020.gif)
@@ -50,7 +47,6 @@
 ![Markdown](http://i4.buimg.com/591904/7ddce125e43e2660.gif)
 
 ## 安装
----
 ###1. Cocoapods
 打开`Podfile`, 加入以下内容：
 
@@ -72,7 +68,6 @@ git clone https://github.com/lskyme/SKDanmakuManager.git
 ```
 将`SKDanmakuManager`文件夹引入项目中并添加头文件`SKDanmakuManager.h`即可。
 ## 使用方法
----
 ### 初始化
 ```
 @property(nonatomic, strong) SKDanmakuManager *manager;
@@ -118,10 +113,8 @@ git clone https://github.com/lskyme/SKDanmakuManager.git
 	请查看`SKDanmakuManager.h`头文件
 ```
 ## 许可
----
 详情见`LICENSE`文件
 ## 声明
----
 - 如果您在使用中发现了任何bug，请提交issue
 
 - 如果您有任何意见或者建议，请联系我`lskyme@sina.com`以便我努力改进
