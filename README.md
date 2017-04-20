@@ -19,7 +19,7 @@
 
 - 支持emoji表情 
 
-####TODO:
+#### TODO:
 - 支持自定义字体
 
 - 其他还没想到~
@@ -29,25 +29,24 @@
 
 ## 效果图
 - 发送弹幕（关闭碰撞检测）
-  
-  ![Markdown](http://i4.buimg.com/591904/63f2640a61155020.gif)
-  
-  ![Markdown](http://i4.buimg.com/591904/bcfad181fa9a6f55.gif)
+
+  <img src="http://i4.buimg.com/591904/63f2640a61155020.gif">
+  <img src="http://i4.buimg.com/591904/bcfad181fa9a6f55.gif">
   
 - 发送弹幕（开启碰撞检测）
 
-![Markdown](http://i4.buimg.com/591904/951653069837919b.gif)
+  <img src="http://i4.buimg.com/591904/951653069837919b.gif">
 
 - 显示/隐藏弹幕
 
-![Markdown](http://i4.buimg.com/591904/b714489efbd8b3c2.gif)
+  <img src="http://i4.buimg.com/591904/b714489efbd8b3c2.gif">
 
 - 暂停/继续弹幕
 
-![Markdown](http://i4.buimg.com/591904/7ddce125e43e2660.gif)
+  <img src="http://i4.buimg.com/591904/7ddce125e43e2660.gif">
 
 ## 安装
-###1. Cocoapods
+### 1. Cocoapods
 打开`Podfile`, 加入以下内容：
 
 ```
@@ -60,7 +59,7 @@ pod 'SKDanmakuManager', '~>1.0'
 pod install
 ```
 在项目中引入头文件`SKDanmakuManager/SKDanmakuManager.h`
-###2. Clone
+### 2. Clone
 打开命令行工具，执行以下命令：
 
 ```
