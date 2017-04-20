@@ -26,7 +26,6 @@
 
 ## 系统要求
 	iOS 8.0+
-
 ## 效果图
 - 发送弹幕（关闭碰撞检测）
 
@@ -51,10 +50,9 @@
 
 ```
 platform :ios, '8.0'
-pod 'SKDanmakuManager', '~>1.0'
+pod 'SKDanmakuManager', '~>1.0.0'
 ```
 然后执行以下命令：
-
 ```
 pod install
 ```
@@ -90,10 +88,10 @@ git clone https://github.com/lskyme/SKDanmakuManager.git
     //_manager.minSpeed = 50.0f;
     
     //设置弹幕之间的垂直间距
-    _manager.verticalSpacing = 10.0f;
+    //_manager.verticalSpacing = 10.0f;
     
     //设置弹幕之间的水平间距
-    _manager.horizontalSpacing = 10.0f;
+    //_manager.horizontalSpacing = 10.0f;
 ```
 
 ### 创建弹幕
@@ -116,5 +114,7 @@ git clone https://github.com/lskyme/SKDanmakuManager.git
 ## 声明
 - 如果您在使用中发现了任何bug，请提交issue
 
-- 如果您有任何意见或者建议，请联系我`lskyme@sina.com`以便我努力改进
+- 如果您有任何意见或者建议，请联系`lskyme@sina.com`
+
+- 如果您喜欢本库，请`star`一下表示支持
 
