@@ -52,7 +52,7 @@
 platform :ios, '8.0'
 
 target 'YourProjectName' do
-...
+	...
 	pod 'SKDanmakuManager', '~>1.0.0'
 end
 ```
