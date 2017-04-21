@@ -20,9 +20,11 @@
 - 支持emoji表情 
 
 #### TODO:
-- 支持自定义字体
+- 增加自定义字体的支持
 
-- 其他还没想到~
+- 增加对弹幕背景的支持
+
+- 增加中心弹幕（视频中心竖直显示的弹幕）
 
 ## 系统要求
 	iOS 8.0+
@@ -52,8 +54,7 @@
 platform :ios, '8.0'
 
 target 'YourProjectName' do
-	...
-	pod 'SKDanmakuManager', '~>1.0.0'
+    pod 'SKDanmakuManager', '~>1.0.0'
 end
 ```
 然后执行以下命令：
