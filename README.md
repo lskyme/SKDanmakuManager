@@ -29,20 +29,20 @@
 ## 效果图
 - 发送弹幕（关闭碰撞检测）
 
-  <img src="http://i4.buimg.com/591904/63f2640a61155020.gif">
-  <img src="http://i4.buimg.com/591904/bcfad181fa9a6f55.gif">
+  ![发送弹幕（小屏）](https://github.com/lskyme/SKDanmakuManager/blob/master/Gif/%E6%95%88%E6%9E%9C%E5%9B%BE-%E5%8F%91%E9%80%81%E5%BC%B9%E5%B9%95%EF%BC%88%E5%B0%8F%E5%B1%8F%EF%BC%89.gif?raw=true)
+  ![发送弹幕（全屏）](https://github.com/lskyme/SKDanmakuManager/blob/master/Gif/%E6%95%88%E6%9E%9C%E5%9B%BE-%E5%8F%91%E9%80%81%E5%BC%B9%E5%B9%95%EF%BC%88%E5%85%A8%E5%B1%8F%EF%BC%89.gif?raw=true)
   
 - 发送弹幕（开启碰撞检测）
 
-  <img src="http://i4.buimg.com/591904/951653069837919b.gif">
+  ![发送弹幕（碰撞检测）](https://github.com/lskyme/SKDanmakuManager/blob/master/Gif/%E6%95%88%E6%9E%9C%E5%9B%BE-%E5%8F%91%E9%80%81%E5%BC%B9%E5%B9%95%EF%BC%88%E7%A2%B0%E6%92%9E%E6%A3%80%E6%B5%8B%EF%BC%89.gif?raw=true)
 
 - 显示/隐藏弹幕
 
-  <img src="http://i4.buimg.com/591904/b714489efbd8b3c2.gif">
+  ![显示（隐藏）弹幕](https://github.com/lskyme/SKDanmakuManager/blob/master/Gif/%E6%95%88%E6%9E%9C%E5%9B%BE-%E6%98%BE%E7%A4%BA%EF%BC%88%E9%9A%90%E8%97%8F%EF%BC%89%E5%BC%B9%E5%B9%95.gif?raw=true)
 
 - 暂停/继续弹幕
 
-  <img src="http://i4.buimg.com/591904/7ddce125e43e2660.gif">
+  ![暂停（继续）弹幕](https://github.com/lskyme/SKDanmakuManager/blob/master/Gif/%E6%95%88%E6%9E%9C%E5%9B%BE-%E6%9A%82%E5%81%9C%EF%BC%88%E7%BB%A7%E7%BB%AD%EF%BC%89%E5%BC%B9%E5%B9%95.gif?raw=true)
 
 ## 安装
 ### 1. Cocoapods
