@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SKDanmakuManager"
-  s.version      = “1.0.0"
+  s.version      = "1.0.0"
   s.summary      = "A danmakus manager for iOS."
   s.description  = <<-DESC
 	Create danmakus quickly and show in video's layer.
