@@ -153,8 +153,15 @@
     int trackNumber = 0;
     SKDanmakuTrack *track = nil;
     if (_tracks.count > 0) {
-        trackNumber = arc4random() % _tracks.count;
-        track = _tracks[trackNumber];
+        NSArray *freeTracks = [self findFreeTracks];
+        if (freeTracks.count > 0) {
+            trackNumber = arc4random() % freeTracks.count;
+            track = freeTracks[trackNumber];
+        }
+        else {
+            trackNumber = arc4random() % _tracks.count;
+            track = _tracks[trackNumber];
+        }
     }
     if (track) {
         danmaku.playOnTrack = track;
@@ -246,6 +253,24 @@
         float nextRandomSpeed = (arc4random() % (int)(nextMaxSpeed - _minSpeed + 1)) + _minSpeed;
         nextDanmaku.moveSpeed = nextRandomSpeed;
     }
+}
+
+/**
+ Search the array of tracks whose has not been used and return it.
+ @return the array of free tracks.
+ */
+-(NSArray *)findFreeTracks {
+    NSMutableArray * usingTracks = [[NSMutableArray alloc] init];
+    for (SKDanmaku *tmpDanmaku in _playingDanmakus) {
+        [usingTracks addObject:tmpDanmaku.playOnTrack];
+    }
+    NSMutableArray *freeTracks = [[NSMutableArray alloc] init];
+    for (SKDanmakuTrack *tmpTrack in _tracks) {
+        if (![usingTracks containsObject:tmpTrack]) {
+            [freeTracks addObject:tmpTrack];
+        }
+    }
+    return freeTracks;
 }
 
 #pragma mark - CAAnimationDelegate
