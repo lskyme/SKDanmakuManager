@@ -19,12 +19,12 @@
 
 - 支持emoji表情 
 
-#### TODO:
-- 增加自定义字体的支持
+- 支持自定义字体
 
+#### TODO:
 - 增加对弹幕背景的支持
 
-- 增加中心弹幕（视频中心竖直显示的弹幕）
+- 增加悬浮弹幕（视频中心竖直显示的弹幕）
 
 ## 系统要求
 	iOS 8.0+
@@ -85,8 +85,11 @@ git clone https://github.com/lskyme/SKDanmakuManager.git
 	//是否开启碰撞检测
     //_manager.allowCovered = NO;
     
+    //设置自定义弹幕字体名称
+    //_manager.fontName = @"Papyrus";
+    
     //设置弹幕字体大小
-    _manager.fontSize = 15.0f;
+    //_manager.fontSize = 20.0f;
     
     //设置弹幕最大/最小速度
     //_manager.maxSpeed = 100.0f;
