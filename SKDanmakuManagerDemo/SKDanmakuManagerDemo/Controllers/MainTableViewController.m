@@ -30,7 +30,7 @@
     return 1;
 }
 
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 2;
 }
 
@@ -41,8 +41,9 @@
         case 0:
             cell.textLabel.text = @"covered";
             break;
-            case 1:
+        case 1:
             cell.textLabel.text = @"no covered";
+            break;
         default:
             break;
     }

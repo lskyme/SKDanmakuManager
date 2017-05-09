@@ -42,6 +42,11 @@
  * Defaults to true. */
 @property(nonatomic, assign, readonly) BOOL isShowing;
 
+/* The custom font name of danmaku's text.
+ * If you set a error font name, manager will use system font.
+ * Defaults to Helvetica font. */
+@property(nonatomic, strong) NSString *fontName;
+
 /* The font size of danmaku's text. 
  * Defaults to 15. */
 @property(nonatomic, assign) CGFloat fontSize;

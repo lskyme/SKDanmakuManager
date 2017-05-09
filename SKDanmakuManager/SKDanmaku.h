@@ -24,10 +24,10 @@
  @param text danmaku's text
  @param color text color
  @param speed the speed of animation
- @param size the font size of danmaku
+ @param font the font of danmaku
  @return danmaku
  */
-+(instancetype)danmakuWithText:(NSString *)text color:(UIColor *)color speed:(float)speed fontSize:(CGFloat)size;
++(instancetype)danmakuWithText:(NSString *)text color:(UIColor *)color speed:(float)speed font:(UIFont *)font;
 
 /**
  Calculate the width of the danmaku according to the font size of danmaku's text

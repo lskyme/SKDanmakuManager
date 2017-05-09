@@ -62,10 +62,26 @@
     _playerLayer.backgroundColor = [UIColor darkGrayColor].CGColor;
     
     ///初始化SKDanmakuManager
-//    _manager = [[SKDanmakuManager alloc] init];
-//    _manager.layer = _playerLayer;
+    //_manager = [[SKDanmakuManager alloc] init];
+    //_manager.layer = _playerLayer;
     _manager = [SKDanmakuManager managerWithLayer:_playerLayer];
     _manager.allowCovered = self.covered;
+    
+    //设置自定义弹幕字体名称
+    //_manager.fontName = @"Papyrus";
+    
+    //设置弹幕字体大小
+    //_manager.fontSize = 20.0f;
+    
+    //设置弹幕最大/最小速度
+    //_manager.maxSpeed = 100.0f;
+    //_manager.minSpeed = 50.0f;
+    
+    //设置弹幕之间的垂直间距
+    //_manager.verticalSpacing = 10.0f;
+    
+    //设置弹幕之间的水平间距
+    //_manager.horizontalSpacing = 10.0f;
 
 }
 

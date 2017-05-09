@@ -37,6 +37,7 @@
         self.isPlaying = YES;
         self.isShowing = YES;
         self.fontSize = 15;
+        self.fontName = @"Helvetica";
         self.allowCovered = YES;
         self.playingDanmakus = [[NSMutableArray alloc] init];
         self.tracks = [[NSMutableArray alloc] init];
@@ -65,6 +66,13 @@
     }
 }
 
+-(void)setFontName:(NSString *)fontName {
+    if (_fontName != fontName) {
+        _fontName = fontName;
+        [self layoutDanmakusWithFontSize:_fontSize];
+    }
+}
+
 -(void)createDanmakuWithText:(NSString *)text color:(UIColor *)color {
     if (text == nil) {
         return;
@@ -73,12 +81,19 @@
         return;
     }
     float randomSpeed = (arc4random() % (int)(_maxSpeed - _minSpeed) + 1) + _minSpeed;
-    SKDanmaku *danmaku = [SKDanmaku danmakuWithText:text color:color != nil ? color: [UIColor whiteColor] speed:randomSpeed fontSize:_fontSize];
+    UIFont *font = [UIFont fontWithName:_fontName size:_fontSize];
+    if (font == nil) {
+        font = [UIFont systemFontOfSize:_fontSize];
+    }
+    SKDanmaku *danmaku = [SKDanmaku danmakuWithText:text color:color != nil ? color: [UIColor whiteColor] speed:randomSpeed font:font];
     [danmaku setHidden:!_isShowing];
     [self customWithDanmaku:danmaku];
 }
 
 -(void)pauseDanmakus {
+    if (!_isPlaying) {
+        return;
+    }
     _isPlaying = NO;
     for (SKDanmaku *danmaku in _playingDanmakus) {
         [danmaku pause];
@@ -86,6 +101,9 @@
 }
 
 -(void)resumeDanmakus {
+    if (_isPlaying) {
+        return;
+    }
     _isPlaying = YES;
     for (SKDanmaku *danmaku in _playingDanmakus) {
         [danmaku resume];
@@ -93,6 +111,9 @@
 }
 
 -(void)hideDanmakus {
+    if (!_isShowing) {
+        return;
+    }
     _isShowing = NO;
     for (SKDanmaku *danmaku in _playingDanmakus) {
         [danmaku hide];
@@ -100,6 +121,9 @@
 }
 
 -(void)showDanmakus {
+    if (_isShowing) {
+        return;
+    }
     _isShowing = YES;
     for (SKDanmaku *danmaku in _playingDanmakus) {
         [danmaku show];
@@ -222,7 +246,10 @@
  */
 -(CGFloat)calculateTrackHeight {
     NSString *str = @"";
-    UIFont *font = [UIFont systemFontOfSize:_fontSize];
+    UIFont *font = [UIFont fontWithName:_fontName size:_fontSize];
+    if (font == nil) {
+        font = [UIFont systemFontOfSize:_fontSize];
+    }
     NSDictionary *attrs = @{NSFontAttributeName: font};
     CGSize size = [str boundingRectWithSize:CGSizeMake(100.0, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:attrs context:nil].size;
     return size.height + 5;
